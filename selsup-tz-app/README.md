@@ -1,5 +1,18 @@
 # React + TypeScript + Vite
 
+## Разработчик
+
+Арсений Куликов
+
+## Редактор параметров
+
+Реализованы React компоненты, которые позволяют редактировать структуру Model – проставлять значения параметров.
+ 
+## Технологический стек
+React + TypeScript + Vite
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
