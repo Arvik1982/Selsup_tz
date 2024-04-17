@@ -21,9 +21,8 @@ function App() {
   const [inputValue, setInputValue] = useState("");
   const [refresh, setRefresh] = useState(false);
 
-  const saveChanges = (elementValue: any) => {
-    console.log(elementValue);
-    const elementIndex: number = baseData.model.paramValues.findIndex(
+  const saveChanges = (elementValue:{value:string}) => {
+      const elementIndex: number = baseData.model.paramValues.findIndex(
       (el) => el.value === elementValue.value
     );
     baseData.model.paramValues[elementIndex].value = inputValue;
